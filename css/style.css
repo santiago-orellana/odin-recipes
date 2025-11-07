@@ -1,0 +1,84 @@
+html {
+    /* border: 2px solid blue; */
+}
+* {
+    /* padding: 10px; */
+    /* border: 2px solid red; */
+}
+body {
+    background-color: #ddd;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-top: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    /* border: 2px solid #000; */
+}
+img {
+    height: auto;
+    width: 250px;
+}
+
+#titulo-principal {
+    font-family: monospace, Arial, sans-serif;
+    padding: 15px;
+    /* border: 2px solid red; */
+    text-align: center;
+    background-color: #bbb;
+}
+
+ul {
+    /* border: 2px solid blue; */
+    /* margin: 100px; */
+}
+.recetas {
+    background-color: #bbb;
+    text-decoration: none;
+    /* border: 2px solid blue; */
+}
+
+#home { /* boton "Home"*/
+    border-radius: 15px;
+    background-color: #0077ff96;
+    padding: 5px;
+    border: 2px solid #0077ff;
+    text-decoration: none;
+    /* margin: 15px; */
+}
+
+
+.presentacion-comida {
+    text-align: center;
+}
+.presentacion-comida h4 {
+    color: #741717;
+}
+.descripcion-comida {
+    color: #aa1d1d;
+    padding: 20px;
+}
+
+.ingredientes-pasos {
+    /* margin-left: 10px; */
+    color: #295f9c;
+    display: flex; /*para alinear los elementos en una fila*/
+    justify-content: space-between; /*espacio entre los divs*/
+    gap: 50px; /*espacio entre los divs*/
+    flex-wrap: wrap; /*permite que se envuelvan si no cabe en una fila*/
+}
+
+.ingredientes, .pasos {
+    flex: 1; /*ambos ocupan el mismo espacio*/
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    /* background-color: #f9f9f9; */
+}
+.ingredientes {
+    background-color: #e0e0e0;
+}
+.pasos {
+    background-color: #f0f0f0;
+    /* color: aquamarine; */
+}
